@@ -1,0 +1,42 @@
+/* font-family Abel */
+@font-face {
+    font-family: Abel;
+    src: url('../GoogleFonts/Abel/Abel-Regular.ttf');
+}
+
+/* font-family Anton */
+@font-face {
+    font-family: Anton;
+    src: url('../GoogleFonts/Anton/Anton-Regular.ttf');
+}
+
+/* font-family Josefin */
+@font-face {
+    font-family: Josefin;
+    src: url('../GoogleFonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+}
+
+/* font-family Lexend */
+@font-face {
+    font-family: Lexend;
+    src: url('../GoogleFonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf');
+}
+
+/* font-family Livvic */
+@font-face {
+    font-family: Livvic;
+    src: url('../GoogleFonts/Livvic/Livvic-Regular.ttf');
+}
+
+/* font-family Roboto */
+@font-face {
+    font-family: Roboto;
+    src: url('../GoogleFonts/Roboto/Roboto-Regular.ttf');
+}
+
+/* font-family Rubic_dirt */
+@font-face {
+    font-family: RubikDirt;
+    src: url('../GoogleFonts/Rubik_Dirt/RubikDirt-Regular.ttf');
+}
+
