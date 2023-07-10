@@ -13,6 +13,17 @@ const responsive = {
     }
 }
 
+/*****************************Header Nav-links. Pages not created so commented/deactivated until added header pages created**********
+ * 
+const activePage = window.location.pathname;
+ const navLinks = document.querySelectorAll('nav .nav-link a').forEach(link => {
+    if(link.href.includes(`${activePage}`)){
+        link.classList.add('active');
+    }
+})
+*
+**********Header Nav-links Deactivation Ends ***************/
+
 $(document).ready(function() {
     $nav = $('.nav');
     $toggleCollapse = $('.toggle-collapse');
@@ -21,6 +32,8 @@ $(document).ready(function() {
     $toggleCollapse.click(function() {
         $nav.toggleClass('collapse');
     })
+
+
 
     //Owl-carousel for blog
     $('.owl-carousel').owlCarousel({
